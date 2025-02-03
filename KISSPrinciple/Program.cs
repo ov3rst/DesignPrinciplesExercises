@@ -12,7 +12,6 @@ total = rest.CalculateTotal(prices, (decimal)tipPercentage);
 
 Console.WriteLine($"Total a pagar (con propina del {Math.Round((decimal)tipPercentage * 100, 0)}%): {total}");
 
-
 decimal[] Prices()
 {
     string stringPrices = string.Empty;
@@ -21,7 +20,7 @@ decimal[] Prices()
         Console.Write("Ingrese los precios de los platos (separados por coma): ");
         stringPrices = Console.ReadLine()!;
 
-        if (Regex.IsMatch(stringPrices, "^\\d+(,\\d+)*$"))
+        if (Regex.IsMatch(stringPrices, "^\\d+(?:,\\d+)*$"))
         {
             break;
         }

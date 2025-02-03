@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KISSPrinciple", "KISSPrinci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRYPrinciple", "DRYPrinciple\DRYPrinciple.csproj", "{06ABEA5D-3F42-4132-920A-C2624BE0B19A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAGNIPrinciple", "YAGNIPrinciple\YAGNIPrinciple.csproj", "{1A7FE5FF-6FA9-4007-B5C5-3A2E167978C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDPrinciples", "SOLIDPrinciples\SOLIDPrinciples.csproj", "{7A85A603-6A03-44B5-B22C-F33E57AA94BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{06ABEA5D-3F42-4132-920A-C2624BE0B19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06ABEA5D-3F42-4132-920A-C2624BE0B19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06ABEA5D-3F42-4132-920A-C2624BE0B19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7FE5FF-6FA9-4007-B5C5-3A2E167978C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7FE5FF-6FA9-4007-B5C5-3A2E167978C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7FE5FF-6FA9-4007-B5C5-3A2E167978C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7FE5FF-6FA9-4007-B5C5-3A2E167978C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A85A603-6A03-44B5-B22C-F33E57AA94BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A85A603-6A03-44B5-B22C-F33E57AA94BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A85A603-6A03-44B5-B22C-F33E57AA94BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A85A603-6A03-44B5-B22C-F33E57AA94BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
